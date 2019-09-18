@@ -124,3 +124,5 @@ parcel<-list(destination="new york", dimensions=c(2,6,9), price=12.95)
 parcel
 parcel$price #indexing a list by name
 parcel$dimensions  #indexing a list by name
+load(file="fish_data.Rdata")
+str(fish)
